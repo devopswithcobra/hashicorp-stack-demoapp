@@ -35,7 +35,7 @@ variable "aws_eks_cluster_id" {
 variable "region" {
   type        = string
   description = "AWS Region"
-  default     = ""
+  default     = "us-east-2"
 }
 
 locals {
