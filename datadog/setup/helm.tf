@@ -1,4 +1,4 @@
-resource "helm_release" "datadog1" {
+resource "helm_release" "datadog" {
   name = "datadog"
 
   repository = "https://helm.datadoghq.com"
