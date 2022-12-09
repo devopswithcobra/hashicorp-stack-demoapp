@@ -17,7 +17,7 @@ data "terraform_remote_state" "infrastructure" {
 variable "datadog_helm_version" {
   type        = string
   description = "Helm chart version for Datadog"
-  default     = "3.1.3"
+  default     = "3.5.1"
 }
 
 variable "datadog_api_key" {
