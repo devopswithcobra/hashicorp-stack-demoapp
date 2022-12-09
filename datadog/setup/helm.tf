@@ -1,5 +1,5 @@
 resource "helm_release" "datadog" {
-  name = "datadog1"
+  name = "datadog"
 
   repository = "https://helm.datadoghq.com"
   chart      = "datadog"
